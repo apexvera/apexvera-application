@@ -250,7 +250,7 @@ footer{position:relative;z-index:1;text-align:center;padding:32px;border-top:1px
     const btn=document.querySelector('.btn-submit');
     btn.textContent='Sending...';
     btn.disabled=true;
-    emailjs.send('service_z34dfbs','template_b8s2n49',templateParams)
+    emailjs.send('service_z34dfbs','template_b8s2n49',templateParams,'XgrptHvujiMF__3k5')
       .then(()=>{
         for(let i=1;i<=total;i++) document.getElementById('sec'+i).classList.remove('active');
         document.getElementById('success').classList.add('show');
